@@ -301,7 +301,7 @@ chain_clean = LLMChain(
 
 
 def runapp():
-    st.title("Valiant GPT Chatbot")
+    st.title("Summarize GPT")
 
     name, authentication_status, username = authenticator.login(
         'Login', 'main')
